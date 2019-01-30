@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-color: #c0dfd9;
+}
+
+h2 {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 0.8rem;
+  margin: 0 20% 2%;
+  line-height: 1.5;
+  color: #FFF;
+}
+
+#level-title {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3rem;
+  margin:  5% 5% 4%;
+  color: #FFF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 4px solid white;
+  border-radius: 100%;
+}
+
+.game-over {
+  background-color: gray;
+  opacity: 0.8;
+}
+
+.sand {
+  background-color: #e9ece5;
+}
+
+.purple {
+  background-color: #b0aac2;
+}
+
+.pink {
+  background-color: #dbc3d0;
+}
+
+.gray {
+  background-color: #a8b6bf;
+}
+
+.pressed {
+  box-shadow: 0 0 20px gray;
+  background-color: gray;
+}
